@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: end;
+    padding-right: 40px;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav ul .pfp {
+    border-radius: 40px;
+    overflow: hidden;
+    height: 48px;
+}
+
+nav ul .pfp img {
+    height: 100%;
+}
+
+.googleClone {
+    display: grid;
+    place-items: center;
+    height: 240px;
+}
+
+.googleLogo {
+    border-radius: 10px;
+}
+
+.searchEngine {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #dfe1e5;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px;
+    height: 45px;
+}
+
+.searchEngine:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.searchEngine img {
+    padding-left: 10px;
+}
+
+.searchEngine .googleLens {
+    padding-right: 10px;
+}
+
+.search {
+    font-size: 1.8rem;
+    border: none;
+    width: 500px;
+}
+
+.shortcut {
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 40px;
+}
+
+.customize {
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    align-content: flex-end;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+}
+
+footer div p {
+    padding-left: 25px;
+}
+
+footer div .endP {
+    padding-right: 25px;
+}
+
+footer div p a {
+    color: black;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
